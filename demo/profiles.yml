@@ -1,0 +1,12 @@
+nikitabarskov_model_contracts_and_model_versioning_demo:
+  outputs:
+    dev:
+      dbname: main
+      host: localhost
+      pass: password
+      port: 5432
+      schema: main
+      threads: 1
+      type: postgres
+      user: main
+  target: dev

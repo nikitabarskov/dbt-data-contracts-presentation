@@ -1,0 +1,6 @@
+dbt-core==1.7.10
+dbt-postgres==1.7.10
+pydantic==2.6.4
+typer==0.9.0
+Faker==24.3.0
+pg8000==1.30.5

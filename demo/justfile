@@ -1,0 +1,11 @@
+default:
+    @just --choose
+
+venv:
+  [ -d .venv ] || uv venv
+
+generate-requirements:
+  uv pip compile --output-file=requirements.txt --generate-hashes requirements.in
+
+configure: venv
+  uv pip sync requirements.txt

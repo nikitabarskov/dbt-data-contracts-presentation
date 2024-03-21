@@ -1,0 +1,2 @@
+FROM docker.io/library/postgres:16.2-alpine3.19@sha256:49fd8c13fbd0eb92572df9884ca41882a036beac0f12e520274be85e7e7806e9 AS postgres
+FROM docker.io/dpage/pgadmin4:8.4@sha256:18cd5711fc9a7ed633a5c4b2b1a8f3e969d9262a94b8166c79fe0bba52697788 AS pg-admin
